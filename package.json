@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "esbuild src/script.ts --bundle --minify --sourcemap --outfile=script.js --target=chrome58,firefox57,safari11",
+    "sass": "sass src/styles.scss styles.css"
+  },
+  "dependencies": {
+    "xstate": "^4.26.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.2",
+    "sass": "^1.44.0"
+  }
+}
